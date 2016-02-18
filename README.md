@@ -18,10 +18,10 @@
         android:text="@string/hello_world" />                
 ```
 
-2.  添加xml布局111.
+2.  代码初始化
 
 ```java
-         final TextureVideoView view = recylerViewHelper.getView(R.id.video);
+        final TextureVideoView view = recylerViewHelper.getView(R.id.video);
         VideoLoader instance = VideoLoader.getInstance(context);
         int position = recylerViewHelper.getPosition();
 
